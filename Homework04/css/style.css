@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1146px;
+    margin: auto;
+    background-color: #FFFAF3;
+    background-image: url(../images/gape.png);
+    background-repeat: no-repeat;
+    background-size: 660px 818px;
+    background-position: right 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    max-width: 470px;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid #C08D5D;
+}
+
+header a {
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block;
+    padding-top: 94px;
+    /* padding-left: 82px; */
+    padding-bottom: 23px;
+    margin-left: 82px;
+    vertical-align: middle;
+    /* width: 300px;
+    height: 27px; */
+}
+
+.logo {
+    padding-top: 78px;
+    padding-bottom: 8px;
+    vertical-align: bottom;
+    height: 57px;
+    width: 26px;
+}
+
+nav a {
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+    line-height: 27px;
+    /* height: 27px; */
+}
+
+.first {
+    color: #C08D5D;
+    padding-left: 0;
+}
+
+main {
+    padding-top: 157.5px;
+}
+
+main h1 {
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    width: 355px;
+}
+
+main p {
+    width: 535px;
+    font-size: 18px;
+    padding-bottom: 72px;
+}
+
+span {
+    text-transform: none;
+}
+
+h1::after {
+    content: url(../images/vector.svg);
+    display: block;
+}
+
+.food::after {
+    content: url(../images/logo.svg);
+    display: inline-block;
+    vertical-align: sub;
+    font-size: 50px;
+    margin-left: 8px;
+}
+
+.food {
+    padding-bottom: 8px;
+}
+
+.read {
+    display: inline-block;
+    background-color: #FFFAF3;
+    border: 2px solid #C08D5D;
+    text-decoration: none;
+    color: #3F4042;
+}
+
+main a {
+    padding-left: 15px;
+}
+
+.read::after {
+    content: url(../images/V2.svg);
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    background-color: #C08D5D;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+.mouse {
+    display: block;
+    text-align: center;
+}
